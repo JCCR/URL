@@ -602,7 +602,7 @@ function URLjsImpl() {
   return jURL;
 }
 
-export const URL = URLjsImpl();
+export var URL = URLjsImpl();
 
 /**
  * Helper to feature detect a working native URL implementation
